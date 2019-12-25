@@ -18,9 +18,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <link rel="stylesheet" href="assets/css/Scroll-To-Top-Button.css">
+    <link rel="stylesheet" href="assets/css/google-maps.css">
+    <link rel="stylesheet" href="assets/css/video-container.css">
 </head>
 
 <body id="page-top">
+    <a class="btn btn-primary btn-lg box-shadow" role="button" id="top" href="#" style="color: rgb(33,37,41);">
+        <i class="fa fa-arrow-up"></i>
+    </a>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
         <div class="container"><a class="navbar-brand" href="#page-top" style="font-size: 30px;"><a class="navbar-brand nav-link js-scroll-trigger" href="index.html" style="font-size: 30px;">Travel Mate</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
@@ -195,7 +201,7 @@
         </div>
     </section>
     <div class="footer-basic" style="background-color: rgb(33,37,41);">
-        <footer data-aos="fade-up">
+        <footer>
             <p data-bs-hover-animate="shake" class="copyright1" style="font-size: 20px;margin-top: 0px;">Just for studying purpose</p>
             <p class="copyright1" style="font-size: 16px;margin-top: 0px;padding-top: 11px;">Travel Mate © 2019</p>
             <p class="copyright1" style="font-size: 16px;margin-top: 0px;padding-top: 17px;"><a href="https://github.com/muhamaddarulhadi/TravelMate" style="font-size: 25px;padding-top: 8px;margin-top: 7px;width: 6px;"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github-alt fa-stack-1x fa-inverse" style="color: rgb(33,37,41);"></i></span></a></p>
@@ -214,10 +220,48 @@
                                         Seni, a popular handicrafts market, as well as Kasturi Walk, a covered walkway with vendors selling local delicacies. Once the sun sets, head over to Changkat Bukit Bintang for the real fun, where an obedient row
                                         of colonial-style shophouses have been converted into boisterous pubs, bars and cafes.<br><br></p>
                                     <ul class="list-unstyled">
-                                        <li class="text-center" style="color: rgb(0,0,0);font-size: 17px;"><a href="https://goo.gl/maps/kqxBbjFbZB92">Pasar Seni , Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia</a><br><br></li>
-                                        <li class="text-center" style="font-size: 17px;"><a href="https://goo.gl/maps/kqxBbjFbZB92">Kasturi Walk, Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Malaysia</a><br><br></li>
-                                        <li class="text-center" style="font-size: 17px;"><a href="https://goo.gl/maps/ioS5W2sVzCK2">Changkat Bukit Bintang, Bukit Bintang, Kuala Lumpur, Malaysia</a><br><br><br><br></li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
+                                        <li class="text-center" style="color: rgb(0,0,0);font-size: 17px;">
+                                            <a href="https://goo.gl/maps/kqxBbjFbZB92">Pasar Seni , Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia</a><br><br>
+                                        </li>
+                                        <div class="google-maps">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1991.9033419109019!2d101.6943744!3d3.1456614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49ce2a3c659b%3A0xf93545a167978261!2sCentral%20Market%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1577279765154!5m2!1sen!2smy" width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="">
+                                            </iframe>
+                                        </div>
+
+                                        <li><br><br><br><br></li>
+
+                                        <!--<li class="text-center" style="font-size: 17px;">
+                                            <a href="https://goo.gl/maps/kqxBbjFbZB92">Kasturi Walk, Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Malaysia</a><br><br>
+                                        </li>
+                                         <div class="google-maps">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1991.9033419109019!2d101.6943744!3d3.1456614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49ce2a3c659b%3A0xf93545a167978261!2sCentral%20Market%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1577281081083!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                         </div>
+
+                                        <li><br><br><br><br></li>-->
+
+                                        <li class="text-center" style="font-size: 17px;">
+                                            <a href="https://goo.gl/maps/ioS5W2sVzCK2">Changkat Bukit Bintang, Bukit Bintang, Kuala Lumpur, Malaysia</a><br><br>
+                                        </li>
+                                        <div class="google-maps">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8006658212003!2d101.70632051475737!3d3.1472358977083688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362a2315561d%3A0x2b1faf1e9cb7eccb!2sChangkat%20Bukit%20Bintang%2C%20Bukit%20Bintang%2C%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1577281225255!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                        </div>
+
+                                        <li><br><br><br></li>
+
+                                         <li class="text-center" style="font-size: 17px;">
+                                            <a>Video highlights of Bukit Bintang, Kuala Lumpur, Malaysia</a><br><br>
+                                        </li>
+                                        <div class="video-container">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LFZa95-Z1BU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+
+                                         <li><br><br><br></li>
+
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -235,19 +279,43 @@
                                 <div class="modal-body">
                                     <h2 class="text-uppercase">GEORGETOWN, PENANG<br><br></h2><img class="img-fluid d-block mx-auto" src="assets/img/destinasi/georgetown.jpg">
                                     <p class="text-justify" style="font-size: 17px;"><br>George Town is Malaysia’s secret to all things street. Street food? They’ve got food courts every half mile, with the right kind of laksa. Street art? They’ve got legal and illegal ones. Street festivals? It’ll
-                                        be strange if you don’t come upon one when you visit.<br></p>
+                                        be strange if you don’t come upon one when you visit.<br><br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><li class="text-center" style="font-size: 17px;">
-<a href="http://maps.google.com/?q=316, Beach Street Georgetown, 10300 George Town, Pulau Pinang">316, Beach Street Georgetown, 10300 George Town, Pulau Pinang</a>
-    <br>
-    <br>
-</li>
-<li class="text-center" style="font-size: 17px;">
-<a href="http://maps.google.com/?q=Esplanade, Padang Kota Lama, 10200 George Town, Pulau Pinang">Esplanade, Padang Kota Lama, 10200 George Town, Pulau Pinang</a>
-    <br>
-    <br>
-</li></li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
+                                            <li class="text-center" style="font-size: 17px;">
+                                                <a href="http://maps.google.com/?q=316, Beach Street Georgetown, 10300 George Town, Pulau Pinang">316, Beach Street Georgetown, 10300 George Town, Pulau Pinang
+                                                </a><br><br>
+                                            </li>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.0208518023346!2d100.33526651476531!3d5.413794396073533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3926b6f9e21%3A0xefa8edd9d62b59cb!2s316%2C%20Beach%20St%2C%20Georgetown%2C%2010300%20George%20Town%2C%20Penang!5e0!3m2!1sen!2smy!4v1577282468061!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                            </div>
+
+                                            <li><br><br><br></li>
+
+                                            <li class="text-center" style="font-size: 17px;">
+                                                <a href="http://maps.google.com/?q=Esplanade, Padang Kota Lama, 10200 George Town, Pulau Pinang">Esplanade, Padang Kota Lama, 10200 George Town, Pulau Pinang
+                                                </a><br><br>
+                                            </li>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31775.883537179307!2d100.32642346788938!3d5.419181348452914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac38f4bb104a7%3A0x910ae0d92e7f117!2sEsplanade%2C%20Georgetown%2C%2010200%20George%20Town%2C%20Penang!5e0!3m2!1sen!2smy!4v1577282566351!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                            </div>
+
+                                            <li><br><br><br></li>
+
+                                            <li class="text-center" style="font-size: 17px;">
+                                                <a>Video highlights of George Town, Pulau Pinang</a><br><br>
+                                            </li>
+                                            <div class="video-container">
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/4GPPjoJLAPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+
+                                            <li><br><br><br></li>
+
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <span style="font-size: 20px;">&nbsp;CLOSE&nbsp;
+                                        </span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -267,11 +335,27 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>This is the ‘real’ Borneo you’ve been looking for, with luscious primary rainforests and excited local inhabitants like gibbons and flying squirrels, who may stop to look at you. Travelers also enjoy checking out
                                         the three ancient burial sites here, which are complete with ceramic spirit jars and belian coffins.<br><br></p>
                                     <ul class="list-unstyled">
-                                        <li><li class="text-center" style="font-size: 17px;">
+                                        <li class="text-center" style="font-size: 17px;">
 <a href="http://maps.google.com/?q=Danum Valley Conservation Area, Lahad Datu, Sabah">Danum Valley Conservation Area, Lahad Datu, Sabah</a>
     <br>
     <br>
-</li></li>
+</li>
+  <div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.8665741792156!2d117.68702781476334!3d4.961839896397868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323e5ad791d90a11%3A0xc43fe0ae5f6f4d1b!2sDanum%20Valley%20Conservation%20Area!5e0!3m2!1sen!2smy!4v1577283192367!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                                
+                                            </div>
+
+                                            <li><br><br><br></li>
+
+                                            <li class="text-center" style="font-size: 17px;">
+                                                <a>Video highlights of Danum Valley, Sabah</a><br><br>
+                                            </li>
+                                            <div class="video-container">
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/PA4fmqvwNMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                               
+                                            </div>
+
+                                            <li><br><br><br></li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -292,13 +376,41 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>Also known as the ‘Jewel of Kedah,’ Langkawi is one of those places which even Malaysians visit (and Malaysians are a thrifty lot). Pristine white sand meets gentle ocean waves at Cenang Beach, which is long enough
                                         to mean you won’t feel crowded in with other travelers. As long as you’re prepared to pay a fee, the Langkawi Cable Car also offers a majestic and sweeping view of the island.<br><br></p>
                                     <ul class="list-unstyled">
-                                        <li><li class="text-center" style="font-size: 17px;">
+                                        <li class="text-center" style="font-size: 17px;">
 <a href="http://maps.google.com/?q=07000 Langkawi, Kedah">07000 Langkawi, Kedah</a>
     <br>
     <br>
-</li></li>
+</li>
+<div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31722.72042574691!2d99.78249036817884!3d6.3499995559031595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304c78da69c4755d%3A0xe43971dbd7bd6dfe!2sLangkawi%2C%2007000%20Langkawi%2C%20Kedah!5e0!3m2!1sen!2smy!4v1577283328774!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+       <li><br><br><br></li>
                                         <li style="font-size: 17px;"><a href="https://goo.gl/maps/JGPXDu218e32">Cenang Beach, Langkawi 07000, Kedah, Malaysia</a><br><br></li>
+<div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31726.43430728691!2d99.7097198!3d6.2894357!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b880ba2f7821b%3A0xc3f05608f5876103!2sPantai%20Cenang!5e0!3m2!1sen!2smy!4v1577283404499!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+ <li><br><br><br></li>
+
+
+
                                         <li style="font-size: 17px;"><a href="https://goo.gl/maps/FbQzoXsro8F2">Langkawi Cable Car, Jalan Telaga Tujuh, 07000 Langkawi, Kedah, Malaysia,</a><br><br></li>
+
+<div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1773796398206!2d99.6694899147699!3d6.371086195389822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304c76e12f53df01%3A0xe2551c0b7d23ba7e!2sLangkawi!5e0!3m2!1sen!2smy!4v1577283425065!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+ <li><br><br><br></li>
+
+  <li class="text-center" style="font-size: 17px;">
+                                                <a>Video highlights of Pulau Langkawi, Kedah</a><br><br>
+                                            </li>
+                                            <div class="video-container">
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/kncdgjeGx6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                           
+                                               
+                                            </div>
+
+                                            <li><br><br><br></li>
+
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -320,6 +432,28 @@
                                         colonized not once or twice, but three times over the course of the next 500 years. The marks of colonization colour (quite literally) the city center, of which the Stadthuys is the most well-known.<br></p>
                                     <ul class="list-unstyled">
                                         <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/nLQYz7eYK292">The Stadthuys Bandar Hilir 75000 Malacca, Malaysia</a><br><br></li>
+
+                                        <div class="google-maps">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.89306657878!2d102.24737271475527!3d2.194165498400686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1de7a706727%3A0xe00f4377e7b368b4!2sStadthuys%2C%20Bandar%20Hilir%2C%2075000%20Malacca!5e0!3m2!1sen!2smy!4v1577283792654!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Melaka</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/U7SGvqClcGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -342,6 +476,28 @@
                                         you see it in person.<br></p>
                                     <ul class="list-unstyled">
                                         <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/yAjwt4SUffN2">Mulu World Heritage Area, Sarawak, Malaysia</a><br><br></li>
+
+
+                                        <div class="google-maps">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d509410.91310869536!2d114.61994920618045!3d4.066673884345995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321903b651d89c1d%3A0xcc556a8cef339f29!2sGunung%20Mulu%20National%20Park!5e0!3m2!1sen!2smy!4v1577284001126!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Mulu World Heritage Area, Sarawak</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R5GoskyJ_Cc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -363,9 +519,50 @@
                                         it’s advisable to book lodgings in advance. For the less adventurous, Kota Kinabalu (fondly known as ‘KK’) also offers a variety of other attractions, including the Gaya Street Sunday Market and the Klias River
                                         Cruise.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/rnECJZFcxdH2">Mount Kinabalu, Ranau, Sabah, Malaysia</a><br><br><a href="https://goo.gl/maps/QnVwU38L4oJ2">Gaya Street Sunday Market, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia</a><br><br>
-                                            <a
-                                                href="https://goo.gl/maps/HohFeniJqSq">Klias River Cruise, Kampong Kota Klias, 89800 Beaufort, Sabah, Malaysia</a><br><br></li>
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/rnECJZFcxdH2">Mount Kinabalu, Ranau, Sabah, Malaysia</a><br><br>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31739.280460098216!2d116.54131406808868!3d6.07531271842942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2smy!4v1577284291714!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+                                            <a style="font-size: 17px;" href="https://goo.gl/maps/QnVwU38L4oJ2">Gaya Street Sunday Market, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, Malaysia</a><br><br>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.092275906842!2d116.07402121476802!3d5.982031195667088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323b698f870637b5%3A0xfbb01a6fe8fa566d!2sSatay%20Legend%20Lok%20Kawi%201!5e0!3m2!1sen!2smy!4v1577284312359!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+                                            
+
+                                            <a style="font-size: 17px;" href="https://goo.gl/maps/HohFeniJqSq">Klias River Cruise, Kampong Kota Klias, 89800 Beaufort, Sabah, Malaysia</a><br><br>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.8200114139286!2d115.62900061476545!3d5.444278296051664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3223351a1351a065%3A0x39c7f20287f99b7c!2sKlias%20River%20Cruise!5e0!3m2!1sen!2smy!4v1577284335684!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Sabah</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P5zfmgTXf5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+
+                                        </li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -387,6 +584,29 @@
                                         and October to nest. Giant green turtles account for 90% of turtle landings here, but if you’re lucky you’ll also spot a hawksbill turtle making her slow ascent towards her nesting spot.<br></p>
                                     <ul class="list-unstyled">
                                         <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/r4uQHBDQh7S2">Talang-Satang National Park, Sarawak, Malaysia</a><br><br></li>
+
+                                        <div class="google-maps">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15951.46472669968!2d110.1576357!3d1.7923966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fafc9807ca9d59%3A0x2858e5122c3ce03!2sTaman%20Negara%20Talang%20Satang!5e0!3m2!1sen!2smy!4v1577284493900!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Talang Satang National Park, Sarawak </a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/r-GQFaaM-9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -407,7 +627,36 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>It’s been said that Singaporeans love Johor Bahru, but it’s not just because the currency is a good deal in their favor. It’s because of the lovely stretch of fine sand at Desaru Beach, and the laid-back culture
                                         of Johorians. Night markets are also a big draw.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/iHdU3swgTVD2">Desaru Beach 81600, Johor, Malaysia</a><br><br><a href="https://goo.gl/maps/S2xdzyL3ft92">Tan Hiok Nee Heritage Street, 39, Jalan Tan Hiok Nee, Bandar Johor Bahru, 80000 Johor Bahru, Johor, Malaysia</a><br><br></li>
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/SqaLo7q318iwTLBE8">Desaru Beach 81600, Johor, Malaysia</a><br><br>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.3655324230144!2d104.2621422!3d1.5462345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da4b5e3f6720ed%3A0xe80dab65c6fcc5a5!2sDesaru%20Beach!5e0!3m2!1sen!2smy!4v1577285011463!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+                                            <a style="font-size: 17px;" href="https://goo.gl/maps/S2xdzyL3ft92">Tan Hiok Nee Heritage Street, 39, Jalan Tan Hiok Nee, Bandar Johor Bahru, 80000 Johor Bahru, Johor, Malaysia</a><br><br></li>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5295076233506!2d103.76105701475416!3d1.4563563989378867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da12e87bf675b9%3A0x19ae7c1e67b96e46!2zVGFuIEhpb2sgTmVlIEhlcml0YWdlIFdhbGsg6Zmz5pet5bm05paH5YyW6KGX!5e0!3m2!1sen!2smy!4v1577285088171!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Johor</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZrxEReFUjIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -428,9 +677,61 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>Wondering where your ‘Boh’ tea comes from? Here marks the place. The gentle hills and valleys of Cameron Highlands are emerald-green with tea plantations that stretch as far as your eyes can see. But if tea’s not
                                         to your taste there are other attractions too, including a cactus valley, a honey bee farm and strawberry farm.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/11Lw3ZeXc252">Cameron Highlands, Pahang, Malaysia</a><br><br><a href="https://goo.gl/maps/tjzDnH7595J2">Cactus Valley Pekan lama, 39100, Brinchang, 39000 Brinchang, Pahang, Malaysia</a><br><br>
-                                            <a
-                                                href="https://goo.gl/maps/pYCBQYWtT342">Honey Bee Farm, Brinchang, 39000 Brinchang, Pahang, Malaysia</a><br><br><a href="https://goo.gl/maps/Y2mKqefJbF92">Strawberry Farm, Brinchang, 39000 Pahang, Malaysia</a><br><br></li>
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/11Lw3ZeXc252">Cameron Highlands, Pahang, Malaysia</a><br><br>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254571.75028290882!2d101.33022364276322!3d4.469779744140861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca5082fa7f0d47%3A0x655625f6e1faf2f4!2sCameron%20Highlands%2C%20Pahang!5e0!3m2!1sen!2smy!4v1577285317672!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+                                            <a style="font-size: 17px;" href="https://goo.gl/maps/tjzDnH7595J2">Cactus Valley Pekan lama, 39100, Brinchang, 39000 Brinchang, Pahang, Malaysia</a><br><br>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.546450421998!2d101.38461671476156!3d4.49498059673385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca584aecba4611%3A0xb750b6115bd453b7!2sCactus%20Valley!5e0!3m2!1sen!2smy!4v1577285373533!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+                                            <a style="font-size: 17px;"
+                                                href="https://goo.gl/maps/pYCBQYWtT342">Honey Bee Farm, Brinchang, 39000 Brinchang, Pahang, Malaysia</a><br><br>
+
+                                                <div class="google-maps">
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63639.63593181813!2d101.33564933056643!3d4.507643560117974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca59a19c887305%3A0xd9f89e3ce910d871!2sEe%20Feng%20Gu%20Bee%20Farm!5e0!3m2!1sen!2smy!4v1577285401705!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+                                                <a style="font-size: 17px;" href="https://goo.gl/maps/Y2mKqefJbF92">Strawberry Farm, Brinchang, 39000 Pahang, Malaysia</a><br><br>
+
+                                                <div class="google-maps">
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.543481933513!2d101.38448801476159!3d4.495524496733472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca584a2e1875ab%3A0xac11d03aa47a1c3b!2sBig%20Red%20Strawberry%20Farm!5e0!3m2!1sen!2smy!4v1577285420862!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Cameron Highlands, Pahang </a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iFB8fVvotIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+                                            </li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -451,9 +752,44 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>‘Kuching’ literally means cats. That’s right, Sarawak’s capital city is named after furry domestic felines, who dominate the city in the form of numerous strategic sculptures. But there’s more than just cats to
                                         look at here. You can explore history at the Fort Margherita, discover religious culture at Tua Pek Kong Temple, and say hello to the proboscis monkeys at Bako National Park.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/UBvUVhreGM92">Fort Magherita, Petra Jaya 93050, Kuching, Sarawak, Malaysia</a><br><br><a href="https://goo.gl/maps/zER8yvKpL3S2">Tua Pek Kong Temple, 93100 Sarawak, Malaysia</a><br><br>
-                                            <a
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/UBvUVhreGM92">Fort Magherita, Petra Jaya 93050, Kuching, Sarawak, Malaysia</a><br><br>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3384975027207!2d110.34725531475432!3d1.5605559988619693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba7e8d0882627%3A0xf2be861a2f18830f!2sFort%20Margherita%2C%20Petra%20Jaya%2C%2093050%20Kuching%2C%20Sarawak!5e0!3m2!1sen!2smy!4v1577285854543!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+                                            <a style="font-size: 17px;" href="https://goo.gl/maps/zER8yvKpL3S2">Tua Pek Kong Temple, 93100 Sarawak, Malaysia</a><br><br>
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.34491274751!2d110.34685171475428!3d1.5571694988644333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba7ebf71c391f%3A0xa6ce3fe88e904d79!2sTua%20Pek%20Kong%20Temple%2C%2093100%20Kuching%2C%20Sarawak!5e0!3m2!1sen!2smy!4v1577285864193!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+                                            <a style="font-size: 17px;"
                                                 href="https://goo.gl/maps/WgFVenpAncB2">Bako National Park, Sarawak, Malaysia</a><br><br></li>
+                                                <div class="google-maps">
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.0276430117015!2d110.46447801475452!3d1.716666698748254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fa532cb6e56807%3A0x5abbf314c5effda6!2sBako%20National%20Park!5e0!3m2!1sen!2smy!4v1577285904810!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Kuching, Sarawak</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sBT6L5bcSnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -474,7 +810,28 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>If you want to avoid the tourist-centric Pulau Langkawi, why not travel to the other side of the peninsula for the Perhentian Islands instead? Both the ‘big’ and ‘little’ islands feature lush greenery, refreshingly
                                         clear water and fine sand on the shores. If you’ve always wanted to test your snorkeling, diving and kayaking skills, this is the place to do it.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/ZCHp3L5s4av">Perhentian Islands, Terengganu, Malaysia</a><br><br></li>
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/ZCHp3L5s4av">Perhentian Islands, Terengganu, Malaysia</a><br><br>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63497.8784612108!2d102.71297529197373!3d5.909229904041359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6e0a1066698ef%3A0x335867e57327093c!2sPerhentian%20Islands!5e0!3m2!1sen!2smy!4v1577286089300!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Pulau Perhentian, Terengganu</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UREI8MQFv4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+                                        </li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -495,7 +852,33 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>Experienced hikers will enjoy the challenge of Lambir Hills. Selected parts of the journey offer hiking aids like handlebars and wooden steps, but even this convenience doesn’t beset the steep climb at the final
                                         part of the hike, towards the top of Bukit Lambir. Waterfalls abound, birds are aplenty and trekking trails fork several ways. Bring water, snacks and a towel if you’re likely to sweat.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/KvmS6keXq8m">Lambir Hills National Park, Miri, Sarawak, Malaysia</a><br><br></li>
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/KvmS6keXq8m">Lambir Hills National Park, Miri, Sarawak, Malaysia</a><br><br>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.1118786418183!2d114.04068431476047!3d4.198370996947756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321f318678a19e09%3A0xc7d372467b2b6306!2sLambir%20Hills%20National%20Park!5e0!3m2!1sen!2smy!4v1577286253000!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Lambir Hills National Park, Miri, Sarawak</a><br><br>
+</li>
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MYhR_WDTMj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+                                        </li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -516,7 +899,35 @@
                                     <p class="text-justify" style="font-size: 17px;"><br>Is your idea of a tropical holiday strolling along the beach, watching turtles hatch, and enjoying a spa day or two? If so, Pulau Tioman is the destination for you. As long as you avoid the monsoon season between
                                         November and February, you’ll be knocking back cold draught beers on pristine white sand and enjoying sunsets to rival Bali’s.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/2SDLt5J2iLE2">Pulau Tioman, Mersing, Pahang, Malaysia</a><br><br></li>
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/2SDLt5J2iLE2">Pulau Tioman, Mersing, Pahang, Malaysia</a><br><br>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127521.05457600906!2d104.1002939393741!3d2.806480406408297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c51b92f94cd239%3A0xb7b7e438fc01e28e!2sTioman%20Island!5e0!3m2!1sen!2smy!4v1577286383258!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Pulau Tioman, Pahang</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XkWOputw26I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+
+
+                                        </li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -538,7 +949,41 @@
                                         Scottish and Tamilvanan Indian elements. But if old (and possibly haunted) castles are not for you, the Tempurung Cave is another popular attraction, especially for spelunkers. Large chambers, impressive stalagmites
                                         and walking tours of various lengths make this cave a soul-humbling and feet-challenging experience.<br></p>
                                     <ul class="list-unstyled">
-                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/QrwbSv2GTxx">Kellie’s Castle,31000 Batu Gajah, Perak, Malaysia</a><br><br><a href="https://goo.gl/maps/842AAuszZtv">Tempurung Cave, 31600 Gopeng, Negeri Perak, Malaysia</a><br><br></li>
+                                        <li style="font-size: 17px;"><br><a href="https://goo.gl/maps/QrwbSv2GTxx">Kellie’s Castle,31000 Batu Gajah, Perak, Malaysia</a><br><br>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.658634817006!2d101.08559911476152!3d4.4743772967487025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caef5e78817aa9%3A0x93bc5c7d6ecd82ba!2sKellie&#39;s%20Castle!5e0!3m2!1sen!2smy!4v1577288338810!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+                                            <a style="font-size: 17px;" href="https://goo.gl/maps/842AAuszZtv">Tempurung Cave, 31600 Gopeng, Negeri Perak, Malaysia</a><br><br>
+
+                                            <div class="google-maps">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.9736538479783!2d101.18549651476125!3d4.416009396790787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cafb14dbb8742d%3A0xacb03b8d7a0bcea2!2sTempurung%20Cave!5e0!3m2!1sen!2smy!4v1577288350397!5m2!1sen!2smy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+<li class="text-center" style="font-size: 17px;">
+   <a>Video highlights of Ipoh, Perak</a><br><br>
+</li>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WPBB-swGD6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+<li><br><br><br></li>
+
+
+
+
+                                        </li>
                                     </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><span style="font-size: 20px;">&nbsp;CLOSE&nbsp;</span></button></div>
                             </div>
                         </div>
@@ -553,6 +998,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/agency.js"></script>
+    <script src="assets/js/Scroll-To-Top-Button.js"></script>
+    <script src="assets/js/stop-video.js"></script>
 </body>
 
 </html>
